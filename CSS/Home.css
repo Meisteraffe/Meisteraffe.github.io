@@ -1,16 +1,17 @@
+.body {
+  margin: 0;
+}
 .header {
   display: flex;
-  padding: 10px 16px;
-  background: white;
-  color: black;
+  background: black;
   padding: 0;
-  height: 200px;
+  margin: 0;
+  height: 100px;
 }
 
-.body {
+.main {
   display: flex;
   height: 600px;
   margin: 0;
-  color: black;
-  background-color: black;
+  background-color: white;
 }
