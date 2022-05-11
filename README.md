@@ -1,3 +1,3 @@
 # Berlin-Group-Project
 
-No dick, no balls
+No schwanze, no balle
