@@ -2,8 +2,11 @@
   padding: 10px 16px;
   background: white;
   color: black;
+  margin: 0;
 }
 
 .body {
+  height: 600px;
+  color: black;
   background-color: black;
 }
