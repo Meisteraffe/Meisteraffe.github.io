@@ -1,27 +1,50 @@
+.links{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1145px;
+    height: 65px;
+    margin: 105px 0px 65px 65px;
+    background: #CCCCCC;
+    border-radius: 20px;
+}
+.button{
+    padding: 8px;
+    width: 150px;
 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+
+    color: #FF7A00;
+    border-radius: 15px;
+    background: #323232;
+}
 .germanFood{
+    position: absolute;
     width: 599px;
     height: 126px;
-    background-color: aqua;
 }
 .foodTitle{
     position: absolute;
     width: 550px;
-    height: 109px;
-    left: 26.42px;
-    top: 58.59px;
-    max-width: 550px;
+    height: 509px;
+    left: 40px;
+    top: -232px;
+    max-width: 500px;
     height: 110px;
-    transform: rotate(-2.3deg);
+    transform: rotate(-1.3deg);
 }
 .germanLine{
     position: absolute;
-    width: 599px;
+    width: 550px;
     height: 0px;
-    left: 10.14px;
-    top: 144.55px;
+    left: 30px;
+    top: -145px;
     height: 20px;
     background-image: linear-gradient(270deg, #FFE600 0%, #BD0000 46.87%, #000000 100%);
     border-radius: 10px;
-    transform: rotate(-2.3deg);
+    transform: rotate(-1.3deg);
 }
