@@ -1,0 +1,99 @@
+/* Behöver göra px till %*/
+body{
+    background-image: url(/images/foodBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: 140%;
+}
+.links{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1145px;
+    height: 65px;
+    margin: 105px 0px 65px 65px;
+    background: #ccccccc7;
+    border-radius: 20px;
+}
+.button{
+    padding: 8px;
+    width: 150px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+
+    color: #FF7A00;
+    border-radius: 15px;
+    background: #323232;
+}
+.germanFood{
+    position: absolute;
+    width: 599px;
+    height: 126px;
+}
+.foodTitle{
+    position: absolute;
+    width: 550px;
+    height: 509px;
+    left: 40px;
+    top: -238px;
+    max-width: 500px;
+    height: 110px;
+    transform: rotate(-1.3deg);
+}
+.germanLine{
+    position: absolute;
+    width: 550px;
+    height: 0px;
+    left: 30px;
+    top: -150px;
+    height: 20px;
+    background-image: linear-gradient(270deg, #FFE600 0%, #BD0000 46.87%, #000000 100%);
+    border-radius: 10px;
+    transform: rotate(-1.3deg);
+}
+.boxText{
+    background: #eae7e4e0;
+    max-width: 525px;
+    margin: -30px 0px 0px 60px;
+    border-radius: 10px;
+}
+.bText{
+    padding: 10px;
+    font-family: 'Inter';
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 39px;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    position: absolute;
+    background: rgba(212, 211, 211, 0.85);
+    width: 535px;
+    height: auto;
+    margin: -510px 0px 0px 645px;
+    border-radius: 10px;
+}
+.image1{
+    max-width: 100%;
+}
+.image1Desc{
+    margin: 0px 0px 5px;
+}
+.imageBox2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image2, .image3{
+    max-width: 50%;
+}
+.image2Desc{
+    margin: 0px 0px 0px 0px;
+}
+.image3Desc{
+    margin: 0px 10px -50px;
+}
