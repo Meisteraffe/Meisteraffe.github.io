@@ -3,12 +3,13 @@ body{
 }
 /*Headign and nav buttons*/
 .cultureHeading{
-    background-color: orange;
     display: flex;
+    margin-top: -3%;
     flex-direction: column;
 }
 .cultureImage{
     max-width: 30%;
+    border-radius: 30px;
 }
 .cultureTitle{
     max-width: 100%;
@@ -20,44 +21,74 @@ body{
     align-items: center;
     width: 90%;
     margin-top: -4%;
+    margin-left: 2.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    border-radius: 15px;
     height: 50px;
     background-color: aliceblue;
 }
 .generalButton{
     display: flex;
+    background-color: darkgray;
     justify-content: center;
-    padding: 10px;
-    width: 100px;
+    padding: 3px;
+    width: 15%;
     border: solid red 4px;
-    border-radius: 5px;
+    border-radius: 15px;
     text-decoration: none;
-    color: black;
-    font-family: 'Inter';
+    color: orange;
+    font-family: 'Arial';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 25px;
 }
 
 /*Food*/
 .germanFood{
     background: url("/images/foodBackground.jpg") no-repeat;
     background-size: 120%;
+    height: 800px;
+    border-radius: 20px;
+    margin-top: 100px;
 }
 .foodMain{
-    background-color: none;
+    display: flex;
 }
 .foodText{
-    background-color: none;
+    background-color: rgba(255, 255, 255, 0.725);
+    margin: 2.5% 0px 0px 10px;
+    border-radius: 15px;
+    height: 700px;
+    width: 1200px;
+    padding: 10px;
 }
 .foodImageBox{
-    background-color: none;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    margin: 2.5% 10px 0px 100px;
+    border-radius: 15px;
+    height: 700px;
+    width: 1200px;
+    padding: 10px;
+}
+.foodImage1{
+    width: 100%;
+    height: 50%;
+    border-radius: 15px;
+}
+.foodImageBox2{
+    background-color: aqua;
+    height: 300px;
+}
+.foodImage2, .foodImage3{
+    width: 40%;
 }
 /*History*/
 .germanHistory{
     background-color:blueviolet;
     margin-top: 10%;
-}
-
-.a{
-    width: 10%;
 }
