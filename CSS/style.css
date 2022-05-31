@@ -63,7 +63,7 @@ body {
   font-size: 25px;
   transition-duration: 0.4s;
 }
-.generalButton:hover{
+.generalButton:hover {
   background-color: turquoise;
   color: white;
 }
@@ -188,4 +188,8 @@ body {
   background-color: blueviolet;
   margin-top: 5%;
   margin-bottom: 5%;
+}
+
+.textFoodBrandenburg {
+  font-size: 26px;
 }
