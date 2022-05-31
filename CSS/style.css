@@ -61,6 +61,11 @@ body {
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
+  transition-duration: 0.4s;
+}
+.generalButton:hover{
+  background-color: turquoise;
+  color: white;
 }
 /*Backgrounds for each topic*/
 .germanFood {
