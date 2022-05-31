@@ -1,53 +1,179 @@
-.body {
+body {
+  background-color: rgb(0, 0, 0);
+}
+/*Headign and nav buttons*/
+.cultureHeading {
   display: flex;
-  margin: 0;
+  margin-top: -3%;
+  flex-direction: column;
 }
-.header {
-  display: flex;
-  background: white;
-  padding: 60px 655px;
-  margin: 0;
-  position: fixed;
+.cultureImage,
+.sightsImage,
+.activitiesImage {
+  max-width: 30%;
+  border-radius: 30px;
 }
-
-.main {
-  height: 2000px;
-  margin: 0;
-  background-color: #f5f5f5;
+.sightsImage {
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
-
-.imageGate {
+.activitiesImage {
+  margin-bottom: 1%;
+  margin-top: -1%;
+}
+.cultureTitle {
   max-width: 100%;
-  height: 600px;
-  text-align: center;
 }
-
-.gate {
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-top: -4%;
+  margin-left: 2.5%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  border-radius: 15px;
+  height: 50px;
+  background-color: coral;
+}
+.generalButton {
+  display: flex;
+  background-color: teal;
+  justify-content: center;
+  padding: 3px;
+  width: 15%;
+  border: solid rgba(64, 224, 208, 0.522) 4px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: orange;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+}
+/*Backgrounds for each topic*/
+.germanFood {
+  background: url("/images/foodBackground.jpg") no-repeat;
+  background-size: 120%;
+  height: 800px;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+.germanHistory {
+  background: url("/images/brandenburg_gate.jpg") no-repeat;
+  background-size: 130%;
+  height: 800px;
+  border-radius: 20px;
+}
+.germanOktoberfest {
+  background: url("/images/foodBackground.jpg") no-repeat;
+  background-size: 120%;
+  height: 800px;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+.germanSports {
+  background: url("/images/foodBackground.jpg") no-repeat;
+  background-size: 120%;
+  height: 800px;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+.germanPubcrawl {
+  background: url("/images/foodBackground.jpg") no-repeat;
+  background-size: 120%;
+  height: 800px;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+.germanBerlinWall {
+  background: url("/images/foodBackground.jpg") no-repeat;
+  background-size: 120%;
+  height: 800px;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+.germanBrandenburg {
+  background: url("/images/foodBackground.jpg") no-repeat;
+  background-size: 120%;
+  height: 800px;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+.germanMuseumIsland {
+  background: url("/images/foodBackground.jpg") no-repeat;
+  background-size: 120%;
+  height: 800px;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+/*Slutet*/
+.foodMain,
+.historyMain {
+  display: flex;
+}
+.foodText,
+.historyText {
+  background-color: rgba(255, 255, 255, 0.725);
+  margin: 2.5% 0px 0px 10px;
+  border-radius: 15px;
+  height: 700px;
+  width: 1200px;
+  padding: 10px;
+}
+.foodImageBox,
+.historyImageBox {
+  background-color: rgba(96, 96, 96, 0.637);
+  display: flex;
+  flex-direction: column;
+  margin: 2.5% 10px 0px 100px;
+  border-radius: 15px;
+  height: 700px;
+  width: 1200px;
+  padding: 10px;
+}
+.foodImage1,
+.historyImage1 {
   width: 100%;
-  height: auto;
+  height: 60%;
+  border-radius: 15px;
 }
-
-.content {
-  padding: 16px;
-}
-
-.title {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: black;
-  height: 20px;
-  width: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-}
-
-.shield {
+.foodImageBox2,
+.historyImageBox2 {
+  height: 100%;
   display: flex;
-  max-width: 100%;
-  height: 60px;
+  flex-direction: row;
+  align-items: flex-start;
 }
-
-.imageShield {
-  display: flex;
-  justify-content: flex-start;
+.foodImageBox3,
+.foodImageBox4,
+.historyImageBox3,
+.historyImageBox4 {
+  width: 100%;
+  height: 100%;
+}
+.foodImage2,
+.foodImage3,
+.historyImage2,
+.historyImage3 {
+  width: 90%;
+  height: 80%;
+  border-radius: 5px;
+}
+.foodImage3,
+.specialText,
+.historyImage3 {
+  margin-left: 8%;
+}
+.foodImageText {
+  color: rgb(215, 215, 215);
+}
+.germanHistory {
+  background-color: blueviolet;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
