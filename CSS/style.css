@@ -82,7 +82,7 @@ body {
   border-radius: 20px;
 }
 .germanOktoberfest {
-  background: url("/images/foodBackground.jpg") no-repeat;
+  background: url("/images/germanfire.jpg") no-repeat;
   background-size: 120%;
   height: 800px;
   border-radius: 20px;
@@ -137,6 +137,11 @@ body {
   width: 1200px;
   padding: 10px;
 }
+.backgroundText, .bottomRefFood, .bottomRefHistory{
+  color: white;
+  margin-left: 0.5%;
+  margin-top: 0.5%;
+}
 .foodImageBox,
 .historyImageBox {
   background-color: rgba(96, 96, 96, 0.637);
@@ -176,6 +181,9 @@ body {
   height: 80%;
   border-radius: 5px;
 }
+.mySpecialFoodImage{
+  width: 100%;
+}
 .foodImage3,
 .specialText,
 .historyImage3 {
@@ -183,6 +191,7 @@ body {
 }
 .foodImageText {
   color: rgb(215, 215, 215);
+  margin-top: .5%;
 }
 .germanHistory {
   background-color: blueviolet;
