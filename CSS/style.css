@@ -1,17 +1,17 @@
 body {
   background-color: rgb(0, 0, 0);
 }
-/*Headign and nav buttons*/
+/*Heading style per site*/
 .cultureHeading {
   display: flex;
   margin-top: -3%;
   flex-direction: column;
 }
+
 .cultureImage,
 .sightsImage,
 .activitiesImage {
   max-width: 30%;
-  border-radius: 30px;
 }
 .sightsImage {
   margin-top: 3%;
@@ -31,6 +31,7 @@ body {
   max-width: 25%;
 }
 
+/*Styling for link buttons*/
 .links {
   display: flex;
   flex-direction: row;
@@ -41,124 +42,140 @@ body {
   margin-left: 2.5%;
   padding-left: 2.5%;
   padding-right: 2.5%;
-  padding-top: 2.5px;
-  padding-bottom: 2.5px;
-  border-radius: 15px;
-  height: 50px;
+  padding-top: 0.2%;
+  padding-bottom: 0.2%;
+  border-radius: 15px; /*px because of radius is better with it*/
+  height: 50px; /*px because height was being weird*/
   background-color: coral;
 }
+
 .generalButton {
   display: flex;
   background-color: teal;
   justify-content: center;
-  padding: 3px;
+  padding: 0.4%;
   width: 15%;
   border: solid rgba(64, 224, 208, 0.522) 4px;
-  border-radius: 15px;
+  border-radius: 15px; /*px because of radius is better with it*/
   text-decoration: none;
   color: orange;
   font-family: "Arial";
   font-style: normal;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 1.5em;
   transition-duration: 0.4s;
 }
+
 .generalButton:hover {
   background-color: turquoise;
   color: white;
 }
-/*Backgrounds for each topic*/
+
+/*Styling for backgrounds for each topic*/
 .germanFood {
   background: url("/images/foodBackground.jpg") no-repeat;
   background-size: 120%;
-  height: 800px;
-  border-radius: 20px;
+  height: 800px; /*px because of bottom of page*/
+  border-radius: 20px; /*px because of radius is better with it*/
   margin-top: 5%;
 }
+
 .germanHistory {
   background: url("/images/brandenburg_gate.jpg") no-repeat;
   background-size: 130%;
-  height: 800px;
-  border-radius: 20px;
+  height: 800px; /*px because of bottom of page*/
+  border-radius: 20px; /*px because of radius is better with it*/
 }
+
 .germanOktoberfest {
   background: url("/images/germanfire.jpg") no-repeat;
   background-size: 120%;
-  height: 800px;
-  border-radius: 20px;
+  height: 800px; /*px because of bottom of page*/
+  border-radius: 20px; /*px because of radius is better with it*/
   margin-top: 5%;
 }
+
 .germanSports {
   background: url("/images/foodBackground.jpg") no-repeat;
   background-size: 120%;
-  height: 800px;
-  border-radius: 20px;
+  height: 800px; /*px because of bottom of page*/
+  border-radius: 20px; /*px because of radius is better with it*/
   margin-top: 5%;
 }
+
 .germanPubcrawl {
   background: url("/images/foodBackground.jpg") no-repeat;
   background-size: 120%;
-  height: 800px;
-  border-radius: 20px;
+  height: 800px; /*px because of bottom of page*/
+  border-radius: 20px; /*px because of radius is better with it*/
   margin-top: 5%;
 }
+
 .germanBerlinWall {
   background: url("/images/foodBackground.jpg") no-repeat;
   background-size: 120%;
-  height: 800px;
-  border-radius: 20px;
+  height: 800px; /*px because of bottom of page*/
+  border-radius: 20px; /*px because of radius is better with it*/
   margin-top: 5%;
 }
+
 .germanBrandenburg {
   background: url("/images/foodBackground.jpg") no-repeat;
   background-size: 120%;
-  height: 800px;
-  border-radius: 20px;
+  height: 800px; /*px because of bottom of page*/
+  border-radius: 20px; /*px because of radius is better with it*/
   margin-top: 5%;
 }
+
 .germanMuseumIsland {
   background: url("/images/foodBackground.jpg") no-repeat;
   background-size: 120%;
-  height: 800px;
-  border-radius: 20px;
-  margin-top: 5%;
+  height: 800px; /*px because of bottom of page*/
+  border-radius: 20px; /*px because of radius is better with it*/
+  margin-top: 5%; 
 }
 /*Slutet*/
+
 .foodMain,
 .historyMain {
   display: flex;
 }
+
 .foodText,
 .historyText {
-  background-color: rgba(255, 255, 255, 0.725);
-  margin: 2.5% 0px 0px 10px;
-  border-radius: 15px;
-  height: 700px;
-  width: 1200px;
-  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.87);
+  margin: 2.5% 0px 0px 0.8%;
+  border-radius: 15px; /*px because of radius is better with it*/
+  height: 695px; /*px because of bottom of box*/ 
+  width: 1200px; /*px because of set width*/
+  padding: 1%;
 }
+
 .backgroundText, .bottomRefFood, .bottomRefHistory{
   color: white;
   margin-left: 0.5%;
   margin-top: 0.5%;
 }
+
 .foodImageBox,
 .historyImageBox {
   background-color: rgba(96, 96, 96, 0.637);
   display: flex;
   flex-direction: column;
-  margin: 2.5% 10px 0px 100px;
-  border-radius: 15px;
-  height: 700px;
-  width: 1200px;
-  padding: 10px;
+  margin: 2.5% 0.8% 0px 5%;
+  border-radius: 15px; /*px because of radius is better with it*/
+  height: 700px; /*px because of bottom of box*/
+  width: 1200px; /*px because of set width*/
+  padding: 0.8%;
 }
+
 .foodImage1,
 .historyImage1 {
   width: 100%;
   height: 60%;
-  border-radius: 15px;
+  border-radius: 15px; /*px because of radius is better with it*/
 }
+
 .foodImageBox2,
 .historyImageBox2 {
   height: 100%;
@@ -166,6 +183,7 @@ body {
   flex-direction: row;
   align-items: flex-start;
 }
+
 .foodImageBox3,
 .foodImageBox4,
 .historyImageBox3,
@@ -173,34 +191,40 @@ body {
   width: 100%;
   height: 100%;
 }
+
 .foodImage2,
 .foodImage3,
 .historyImage2,
 .historyImage3 {
   width: 90%;
   height: 80%;
-  border-radius: 5px;
+  border-radius: 5px; /*px because of radius is better with it*/
 }
+
 .mySpecialFoodImage{
   width: 100%;
 }
+
 .foodImage3,
 .specialText,
 .historyImage3 {
   margin-left: 8%;
 }
+
 .foodImageText {
   color: rgb(215, 215, 215);
   margin-top: .5%;
 }
+
 .germanHistory {
   background-color: blueviolet;
   margin-top: 5%;
   margin-bottom: 5%;
 }
 
-.textFoodBrandenburg {
-  font-size: 26px;
+.textFoodBrandenburg, .textFood {
+  font-family: sans-serif;
+  font-size: 1.8em;
 }
 
 .foodImageTxtSource {
