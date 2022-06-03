@@ -218,7 +218,9 @@ body {
 .foodImage2,
 .foodImage3,
 .historyImage2,
-.historyImage3 {
+.historyImage3,
+.specialImage2,
+.specialImage3 {
   width: 90%;
   height: 80%;
   border-radius: 5px; /*px because of radius is better with it*/
@@ -227,10 +229,14 @@ body {
 .mySpecialFoodImage{
   width: 100%;
 }
+.specialImage2, .specialImage3{
+  height: 60%;
+}
 
 .foodImage3,
 .specialText,
-.historyImage3 {
+.historyImage3,
+.specialImage3 {
   margin-left: 8%;
 }
 
