@@ -73,6 +73,14 @@ body {
 }
 
 /*Styling for backgrounds for each topic*/
+.germanHome{
+  background: url("/images/missingTexture2.png") no-repeat;
+  background-size: 120%;
+  height: 800px; /*px because of bottom of page*/
+  border-radius: 20px; /*px because of radius is better with it*/
+  margin-top: 5%;
+}
+
 .germanFood {
   background: url("/images/foodBackground.jpg") no-repeat;
   background-size: 120%;
@@ -82,7 +90,7 @@ body {
 }
 
 .germanHistory {
-  background: url("/images/brandenburg_gate.jpg") no-repeat;
+  background: url("/images/missingTexture2.png") no-repeat;
   background-size: 130%;
   height: 800px; /*px because of bottom of page*/
   border-radius: 20px; /*px because of radius is better with it*/
@@ -113,7 +121,7 @@ body {
 }
 
 .germanBerlinWall {
-  background: url("/images/foodBackground.jpg") no-repeat;
+  background: url("/images/missingTexture2.png") no-repeat;
   background-size: 120%;
   height: 800px; /*px because of bottom of page*/
   border-radius: 20px; /*px because of radius is better with it*/
@@ -121,7 +129,7 @@ body {
 }
 
 .germanBrandenburg {
-  background: url("/images/foodBackground.jpg") no-repeat;
+  background: url("/images/landscape.jpg") no-repeat;
   background-size: 120%;
   height: 800px; /*px because of bottom of page*/
   border-radius: 20px; /*px because of radius is better with it*/
@@ -133,7 +141,21 @@ body {
   background-size: 120%;
   height: 800px; /*px because of bottom of page*/
   border-radius: 20px; /*px because of radius is better with it*/
-  margin-top: 5%; 
+  margin-top: 5%;
+}
+.germanSchultüte{
+  background: url("/images/missingTexture2.png") no-repeat;
+  background-size: 120%;
+  height: 800px; /*px because of bottom of page*/
+  border-radius: 20px; /*px because of radius is better with it*/
+  margin-top: 5%;
+}
+.germanTanz{
+  background: url("/images/missingTexture2.png") no-repeat;
+  background-size: 120%;
+  height: 800px; /*px because of bottom of page*/
+  border-radius: 20px; /*px because of radius is better with it*/
+  margin-top: 5%;
 }
 /*Slutet*/
 
