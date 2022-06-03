@@ -121,7 +121,7 @@ body {
 }
 
 .germanBerlinWall {
-  background: url("/images/missingTexture2.png") no-repeat;
+  background: url("/images/backgroundimage.jpg") no-repeat;
   background-size: 120%;
   height: 800px; /*px because of bottom of page*/
   border-radius: 20px; /*px because of radius is better with it*/
